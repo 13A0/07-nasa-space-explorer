@@ -125,13 +125,11 @@ summary:focus-visible {
   text-decoration: none;
 }
 
-.brand-symbol {
-  display: grid;
-  place-items: center;
-  font-size: 29px;
-  line-height: 1;
-  color: var(--nasa-red);
-  transform: rotate(-15deg);
+.brand-logo {
+  display: block;
+  width: 58px;
+  height: auto;
+  flex-shrink: 0;
 }
 
 .brand-name {
@@ -1058,8 +1056,11 @@ summary:focus-visible {
   letter-spacing: .07em;
 }
 
-.footer-brand .brand-symbol {
-  font-size: 22px;
+.footer-logo {
+  display: block;
+  width: 68px;
+  height: auto;
+  flex-shrink: 0;
 }
 
 .site-footer p {
@@ -1328,6 +1329,10 @@ summary:focus-visible {
 
   .brand-name {
     font-size: 15px;
+  }
+
+  .brand-logo {
+    width: 40px;
   }
 
   .hero {
